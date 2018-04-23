@@ -31,7 +31,6 @@ $(document).ready(function () {
     document.onkeypress = function (e) {
         var enter = 13;
         if (e.ctrlKey && enter) {
-            console.log('Работает!');
             submit();
         }
     }
